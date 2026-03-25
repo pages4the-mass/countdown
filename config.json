@@ -1,0 +1,47 @@
+{
+  "site": {
+    "domain": "adraba.cyou",
+    "locale": "en-IL",
+    "timezone": "Asia/Jerusalem",
+    "title": "The Wait",
+    "subtitle": "something worth dressing up for",
+    "targetISO": "2026-12-31T23:59:50+02:00",
+    "finishEmoji": "🥂",
+    "share": {
+      "title": "The Wait",
+      "description": "A sharp little countdown for something worth arriving at on time.",
+      "image": "/preview.svg"
+    }
+  },
+  "copy": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "ready": "It’s time"
+  },
+  "style": {
+    "bg": "#0b0812",
+    "fg": "#f7f0e8",
+    "muted": "rgba(247,240,232,.72)",
+    "panel": "rgba(255,255,255,.06)",
+    "line": "rgba(255,255,255,.12)",
+    "accentA": "#ffcf8d",
+    "accentB": "#d18cff",
+    "accentC": "#7ef0e8",
+    "shadow": "0 24px 90px rgba(0,0,0,.45)",
+    "radius": 28,
+    "blur": 18,
+    "grain": 0.06,
+    "digitFontScale": 1,
+    "emojiGlow": 0.75
+  },
+  "spectacle": {
+    "durationMs": 9000,
+    "bursts": 9,
+    "burstSize": 140,
+    "burstLifeMs": 1800,
+    "emojiPulseSeconds": 2.8,
+    "ringCount": 4
+  }
+}

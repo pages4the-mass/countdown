@@ -1,47 +1,57 @@
 {
   "site": {
-    "domain": "adraba.cyou",
-    "locale": "en-IL",
+    "domain": "countdown.example.com",
+    "title": "Velvet Hour",
+    "tagline": "a little drama, right on time",
     "timezone": "Asia/Jerusalem",
-    "title": "The Wait",
-    "subtitle": "something worth dressing up for",
-    "targetISO": "2026-03-27T15:00:00+03:00",
-    "finishEmoji": "🥂",
-    "share": {
-      "title": "The Wait",
-      "description": "A sharp little countdown for something worth arriving at on time.",
-      "image": "/preview.svg"
-    }
+    "locale": "en-IL"
   },
-  "copy": {
-    "days": "days",
-    "hours": "hours",
-    "minutes": "minutes",
-    "seconds": "seconds",
-    "ready": "It’s time"
+  "target": {
+    "iso": "2026-12-31T23:59:50",
+    "timezoneLabel": "Tel Aviv time"
+  },
+  "display": {
+    "doneEmoji": "🥂",
+    "units": ["days", "hours", "minutes", "seconds"],
+    "labels": {
+      "days": "days",
+      "hours": "hours",
+      "minutes": "mins",
+      "seconds": "secs"
+    },
+    "headlineMode": "title",
+    "showTarget": true,
+    "targetPrefix": "lands on",
+    "doneLine": "and there it is"
   },
   "style": {
-    "bg": "#0b0812",
-    "fg": "#f7f0e8",
-    "muted": "rgba(247,240,232,.72)",
-    "panel": "rgba(255,255,255,.06)",
-    "line": "rgba(255,255,255,.12)",
-    "accentA": "#ffcf8d",
-    "accentB": "#d18cff",
-    "accentC": "#7ef0e8",
-    "shadow": "0 24px 90px rgba(0,0,0,.45)",
+    "bg": "#110d12",
+    "bg2": "#1e1620",
+    "ink": "#f6efe8",
+    "muted": "#b7aa9f",
+    "accent": "#f1b77a",
+    "accent2": "#d97fa8",
+    "glass": "rgba(255,255,255,0.08)",
+    "line": "rgba(255,255,255,0.14)",
+    "shadow": "0 30px 80px rgba(0,0,0,0.45)",
     "radius": 28,
-    "blur": 18,
-    "grain": 0.06,
-    "digitFontScale": 1,
-    "emojiGlow": 0.75
+    "grain": 0.08,
+    "glow": 0.38,
+    "titleSize": "clamp(2.5rem, 8vw, 6.8rem)",
+    "taglineSize": "clamp(0.95rem, 1.8vw, 1.15rem)",
+    "numberSize": "clamp(2rem, 7vw, 5rem)",
+    "labelSize": "clamp(0.72rem, 1.2vw, 0.9rem)",
+    "emojiSize": "clamp(5rem, 18vw, 12rem)"
   },
   "spectacle": {
-    "durationMs": 9000,
-    "bursts": 9,
-    "burstSize": 140,
-    "burstLifeMs": 1800,
-    "emojiPulseSeconds": 2.8,
-    "ringCount": 4
+    "bursts": 120,
+    "sparkLifeMs": 1800,
+    "ringCount": 4,
+    "emojiPulse": 1.08
+  },
+  "share": {
+    "title": "Velvet Hour",
+    "description": "An elegant countdown with a little flirt and a finish worth waiting for.",
+    "image": "https://countdown.example.com/preview.svg"
   }
 }

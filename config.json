@@ -21,8 +21,8 @@
     },
     "headlineMode": "title",
     "showTarget": true,
-    "targetPrefix": "lands on",
-    "doneLine": "and there it is"
+    "targetPrefix": "",
+    "doneLine": ""
   },
   "style": {
     "bg": "#110d12",

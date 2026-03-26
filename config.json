@@ -8,7 +8,7 @@
   },
   "target": {
     "iso": "2026-03-27T15:00:00",
-    "timezoneLabel": "Tel Aviv time"
+    "timezoneLabel": ""
   },
   "display": {
     "doneEmoji": "🥂",
